@@ -1,0 +1,16 @@
+  188  grep this xComb.txt
+  189  grep this /intro_CL/xComb.txt
+  190  grep this intro_CL/xComb.txt
+  191  grep this intro_CL/xComb.txt
+  192  grep lol intro_CL/xComb.txt > intro_CL/lol.txt | wc
+  193  grep lol intro_CL/xComb.txt > intro_CL/lol.txt | wc -lm
+  194  cp intro_CL/practice.txt test.txt
+  195  mv test.txt intro_CL
+  196  tail -n7 intro_CL/test.txt
+  197  mkdir examples
+  198  mv examples/ intro_CL
+  199  mv intro_CL/ex* intro_CL/examples
+  200  mv intro_CL/ex*txt intro_CL/examples
+  201  pwd
+  202  cd intro_CL
+  203  ls

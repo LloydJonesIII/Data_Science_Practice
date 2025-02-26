@@ -1,0 +1,40 @@
+#!/bin/bash
+    # Necessary to start a bash script ^
+
+cat file_name 
+    # Prints the contents of a file in the terminal 
+
+cat file1 file2
+    # concatonates the two files together file2 is added to the end of file1
+
+nano file 
+    # opens the file in a editable format 
+
+*
+    # following the starting phrase any input can follow including no input 
+
+?
+    # one character can be any character
+
+inputs > file
+    # output will be assigned to the file 
+function 1 | function2
+    # pipes output into function2
+inputs >> file 
+    # appends to the end of the file instead of writting over it with ">"
+
+control-z
+    # pauses a command that is processing 
+fg 
+    # unpauses a command that was paused
+
+tr 
+    # translate characters ie lower case to upper case
+
+wc 
+    # word and line count on the referenced file 
+
+cat file | cut -c1-16
+
+grep pattern file 
+    # grabs all lines within the file that contain pattern 
