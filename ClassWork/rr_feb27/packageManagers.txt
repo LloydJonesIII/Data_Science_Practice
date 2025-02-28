@@ -1,0 +1,4 @@
+Common Managers are:
+- pip
+- poetry
+- pipenv
